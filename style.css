@@ -16,6 +16,7 @@
   padding: 14px;
   text-decoration: none;
 }
+#navbar a:hover{background-color:chartreuse; color: black; font-size: 1.25rem; font-weight:bold}
 body{background-color: black; color: white}
 /* Page content */
 .content {
