@@ -15,19 +15,20 @@
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-size:1.25rem
 }
 #navbar a:hover{background-color:chartreuse; color: black; font-size: 1.25rem; font-weight:bold}
 body{background-color: black; color: white}
-/* Page content */
+
 .content {
   padding: 16px;
 }
 h1{text-align: center;}
 h2{text-align: center;}
-.slidedesc{text-align: center;}
+.slidetitle{font-size:2rem}
+.slidedesc{text-align: center; font-size: 2rem}
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
   width: 500px;
   height:500px;
@@ -36,12 +37,11 @@ h2{text-align: center;}
   float: left;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 .original{display: block}
-/* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -56,19 +56,14 @@ h2{text-align: center;}
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -83,7 +78,7 @@ h2{text-align: center;}
   animation-duration: 1.5s;
 }
 .skills{background-color: #333;
-margin-top:450px}
+margin-top:370px}
 .skillbox {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -100,6 +95,49 @@ margin-top:450px}
   margin:0 auto;
 }
 .skillbox p{text-align: center; font-size:2rem}
+
+.projects{width:65%; margin-bottom: 20px}
+
+.projectContainer{border:4px solid white;
+  border-radius: 5px; margin-top: 30px; text-align:center; color: white; }
+
+.projectContainer img{height:300px; margin:auto; display:block}
+
+.projectContainer:hover{background-color: white; color: black;}
+
+.bottom{background-color:#333; color: white; display:block; margin-top: -10px; margin-bottom:-10px; text-align:center;}
+
+a{text-decoration: none;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;}
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: chartreuse; font-weight:bold
+}
+.container {  
+  border-radius: 5px;
+  background-color: #333;
+  padding: 20px;
+  width:60%;
+  align-items:center;
+  margin:auto;
+  margin-bottom: 30px
+}
+.contactPic img{width: 230px}
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
