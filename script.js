@@ -7,6 +7,7 @@ if(5<hour && hour<=11){greeting="Good Morning!"}
 else if(12<hour && hour<=16){greeting="Good Afternoon!"}
 else if(17<hour || hour<=4){greeting="Good Evening!"}
 else{greeting="Hello!"}
+if(true){document.querySelector(".slidedesc").innerHTML=greeting+ " I'm Riley Edwards.<br>I'm a young man from Evansville, with a passion for computer science.  I like to help people when I can."}
 // Next/previous controls 17 is evening start 16 is afternoon end 12 is afternoon begin 5 is morning begin, 11 is morning end
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -30,7 +31,7 @@ function showSlides(n) {
     document.querySelector(".slidedesc").innerHTML="I've been coding since I was a kid, although it was simple block code. I found a love for it back then. Since, I've been growing my knowledge and skill through practice and projects."
   };
   if(slideIndex===3){
-    document.querySelector(".slidetitle").innerHTML="Cat";
-    document.querySelector(".slidedesc").innerHTML="Short placeholder text about something else, haven't figured what it is<br> out yet."
+    document.querySelector(".slidetitle").innerHTML="My Dream";
+    document.querySelector(".slidedesc").innerHTML="My main dream is to eventually make a video game of my own. I would love to make a game that many people enjoy, but I still am studying different parts of computer science to be flexible."
   };
 }
