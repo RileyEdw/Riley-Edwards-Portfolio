@@ -78,7 +78,7 @@ h2{text-align: center;}
   animation-duration: 1.5s;
 }
 .skills{background-color: #333;
-margin-top:350px}
+margin-top:250px}
 .skillbox {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -96,12 +96,12 @@ margin-top:350px}
 }
 .skillbox p{text-align: center; font-size:2rem}
 
-.projects{width:65%; margin-bottom: 20px}
+.projects{width:60%; margin-bottom: 20px}
 
 .projectContainer{border:4px solid white;
   border-radius: 5px; margin-top: 30px; text-align:center; color: white; }
 
-.projectContainer img{height:300px; margin:auto; display:block}
+.projectContainer img{height:200px; margin:auto; display:block}
 
 .projectContainer:hover{background-color: white; color: black;}
 
@@ -138,7 +138,9 @@ input[type=submit]:hover {
   margin-bottom: 30px
 }
 .contactPic img{width: 230px}
-.huge{font-size:3rem}
+.huge{font-size:3rem; float: left; margin-left: 5%; margin-right:5%; margin-top: 10%}
+.about{width:60%}
+.paragraph{font-size:1.5rem; margin-left:5%; margin-right:5%}
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}

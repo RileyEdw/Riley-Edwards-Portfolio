@@ -7,7 +7,7 @@ if(5<hour && hour<=11){greeting="Good Morning!"}
 else if(12<hour && hour<=16){greeting="Good Afternoon!"}
 else if(17<hour || hour<=4){greeting="Good Evening!"}
 else{greeting="Hello!"}
-if(true){document.querySelector(".slidedesc").innerHTML=greeting+ " I'm Riley Edwards.<br>I'm a young man from Evansville, with a passion for computer science.  I like to help people when I can."}
+if(true){document.querySelector(".slidedesc").innerHTML=greeting+ " I'm Riley Edwards.<br>I'm a young man from Evansville, with a passion for computer science and a love for cats.  I like to help people whenever I can."}
 // Next/previous controls 17 is evening start 16 is afternoon end 12 is afternoon begin 5 is morning begin, 11 is morning end
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -24,7 +24,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   if(slideIndex===1){
     document.querySelector(".slidetitle").innerHTML="Me";
-    document.querySelector(".slidedesc").innerHTML=greeting+ " I'm Riley Edwards.<br>I'm a young man from Evansville, with a passion for computer science.  I like to help people when I can."
+    document.querySelector(".slidedesc").innerHTML=greeting+ " I'm Riley Edwards.<br>I'm a young man from Evansville, with a passion for computer science and a love for cats.  I like to help people whenever I can."
   };
   if(slideIndex===2){
     document.querySelector(".slidetitle").innerHTML="Code";
